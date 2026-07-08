@@ -22,4 +22,4 @@ flowchart LR
 - `notebooks/var_es_pipeline.ipynb` — full pipeline (outputs stripped; run to regenerate). Sections: data & FX conversion → allocation rules → univariate VaR/ES (5 methods, QQ-based ν selection) → portfolio VaR/ES → rolling backtest + binomial tests → multi-day VaR vs √T.
 - Data: Yahoo Finance + FRED (DTB3) — pulled at runtime, not committed.
 
-*Research design, implementation and analysis: Corentin Lepla. Data collection assistance: J. Franker, S. Groenen, I. Yusuf, D. Roth (VU QFRM group project).*
+
